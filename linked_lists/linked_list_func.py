@@ -53,7 +53,7 @@ class LinkedList:
             prev = temp
             temp = temp.next
         if temp is None:
-            print('royhatda mavjud emas mavjudemas')
+            print('data is not inside of the list')
             return
         prev.next = temp.next
         temp = None
